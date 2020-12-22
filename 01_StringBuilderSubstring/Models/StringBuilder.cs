@@ -12,7 +12,7 @@ namespace Extensions
         {
             var result = new StringBuilder();
 
-            result.Append(stringBuilder.ToString(index, length));  //StringBuilder have no special method 'Substring'. Cool thing is that 'ToString()' have built-in same functionality!
+            result.Append(stringBuilder.ToString(index, length));  //Cool thing is that 'ToString()' implementation in StringBuilder have same functionality as Substring (form String class)!
 
             return result;
         }
