@@ -6,11 +6,15 @@ using System.Threading.Tasks;
 
 namespace Extensions
 {
-    public static class StringBuilder
+    public static class ExtendedStringBuilder
     {
-        public static void Substring(int index, int length)
+        public static StringBuilder Substring(this StringBuilder stringBuilder, int index, int length)
         {
+            var result = new StringBuilder();
 
+            result.Append(stringBuilder.ToString(index, length));  //StringBuilder have no special method 'Substring'. Cool thing is that 'ToString()' have built-in same functionality!
+
+            return result;
         }
     }
 }

@@ -10,7 +10,10 @@ namespace Extensions
     {
         static void Main(string[] args)
         {
+            var stringBuilder = new StringBuilder();
+            stringBuilder.Append("Some test text here.");
 
+            Console.WriteLine(stringBuilder.Substring(5, 9));
         }
     }
 }
