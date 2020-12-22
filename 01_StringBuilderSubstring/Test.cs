@@ -10,6 +10,7 @@ namespace Extensions
     {
         static void Main(string[] args)
         {
+            //Test extended method Substring form .
             var stringBuilder = new StringBuilder();
             stringBuilder.Append("Some test text here.");
 
