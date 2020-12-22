@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5923A3BF-8B0A-4DFC-A2AB-FDCB6724000D}</ProjectGuid>
+    <ProjectGuid>{8082C4C6-5FB8-4D85-BE12-E7EFC68D9774}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_01.StringBuilderSubstring</RootNamespace>
-    <AssemblyName>01.StringBuilderSubstring</AssemblyName>
+    <RootNamespace>_01_StringBuilderSubstring</RootNamespace>
+    <AssemblyName>01_StringBuilderSubstring</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Models\StringBuilder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Test.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _01.StringBuilderSubstring
+namespace Extensions
 {
-    class Program
+    class Test
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
