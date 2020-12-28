@@ -9,7 +9,7 @@ namespace Extensions
 {
     public static class ExtendedIEnumerable
     {
-        public static IEnumerable Sum(this IEnumerable<T> type)
+        public static IEnumerable Sum<T>(this IEnumerable<T> type)
         {
             var result = type;
 
