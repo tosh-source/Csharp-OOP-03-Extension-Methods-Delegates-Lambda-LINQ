@@ -11,8 +11,9 @@ namespace Extensions
     {
         public static IEnumerable Sum<T>(this IEnumerable<T> type)
         {
-            var result = type;
-
+            List<T> typeToList = type.ToList();
+            var result = typeToList.Sum();
+                
             return result;
         }
     }
