@@ -11,7 +11,7 @@ namespace Extensions
         static void Main(string[] args)
         {
             IEnumerable<int> firstType = new [] { 2, 1, 2 };
-            Console.WriteLine(firstType.SumOfCollection());
+            Console.WriteLine(firstType.CollectionSum());
 
             IEnumerable<string> secondType = new[] { "2", "1", "2" }; 
             //Console.WriteLine(secondType.SumOfCollection());  //should throw exception! Only ValueTypes can be calculated!

@@ -9,7 +9,7 @@ namespace Extensions
 {
     public static class ExtendedIEnumerable
     {
-        public static decimal SumOfCollection<T>(this IEnumerable<T> type)
+        public static decimal CollectionSum<T>(this IEnumerable<T> type)
         {
             decimal result = 0;
 
