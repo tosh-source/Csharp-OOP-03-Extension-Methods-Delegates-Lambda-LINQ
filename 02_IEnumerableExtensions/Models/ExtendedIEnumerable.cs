@@ -9,10 +9,21 @@ namespace Extensions
 {
     public static class ExtendedIEnumerable
     {
-        public static IEnumerable Sum<T>(this IEnumerable<T> type)
+        public static decimal SumOfCollection<T>(this IEnumerable<T> type)
         {
-            List<T> typeToList = type.ToList();
-            var result = typeToList.Sum();
+            decimal result = 0;
+
+            foreach (var item in type)
+            {
+                if (item is ValueType)
+                {
+                    result += decimal.Parse(item.ToString());
+                }
+                else
+                {
+                    throw new ArgumentException("Only ValueTypes can be calculated!");
+                }
+            }
                 
             return result;
         }
