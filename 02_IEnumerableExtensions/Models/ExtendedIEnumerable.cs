@@ -53,5 +53,23 @@ namespace Extensions
 
             return result;
         }
+
+        public static decimal CollectionMin<T>(this IEnumerable<T> type)
+        {
+            ExceptionHandler(type);
+            decimal result = 0;
+
+
+
+            return result;
+        }
+
+        private static void ExceptionHandler(IEnumerable type)
+        {
+            if (type == null)
+            {
+                throw new ArgumentException("Empty Collection!!!");
+            }
+        }
     }
 }
