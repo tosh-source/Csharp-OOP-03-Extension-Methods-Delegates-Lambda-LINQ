@@ -64,6 +64,16 @@ namespace Extensions
             return result;
         }
 
+        public static decimal CollectionMax<T>(this IEnumerable<T> type)
+        {
+            ExceptionHandler(type);
+            decimal result = 0;
+
+            result = decimal.Parse(type.Max().ToString());
+
+            return result;
+        }
+
         private static void ExceptionHandler(IEnumerable type)
         {
             if (type == null)
