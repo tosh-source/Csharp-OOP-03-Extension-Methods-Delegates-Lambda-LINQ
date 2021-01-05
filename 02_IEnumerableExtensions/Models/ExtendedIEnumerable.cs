@@ -58,8 +58,8 @@ namespace Extensions
         {
             ExceptionHandler(type);
             decimal result = 0;
-
-
+            
+            result = decimal.Parse(type.Min().ToString());
 
             return result;
         }
@@ -69,6 +69,14 @@ namespace Extensions
             if (type == null)
             {
                 throw new ArgumentException("Empty Collection!!!");
+            }
+
+            foreach (var item in type)
+            {
+                if (!(item is ValueType))
+                {
+                    throw new ArgumentException("Only ValueTypes can be calculated!");
+                }
             }
         }
     }
