@@ -11,44 +11,25 @@ namespace Extensions
     {
         public static decimal CollectionSum<T>(this IEnumerable<T> type)
         {
+            ExceptionHandler(type);
             decimal result = 0;
 
             foreach (var item in type)
             {
-                if (item is ValueType)
-                {
-                    result += decimal.Parse(item.ToString());
-                }
-                else
-                {
-                    throw new ArgumentException("Only ValueTypes can be calculated!");
-                }
+                result += decimal.Parse(item.ToString());
             }
-                
+
             return result;
         }
 
         public static decimal CollectionProduct<T>(this IEnumerable<T> type)
         {
-            decimal result = 0;
-            bool defaultValueIsOne = false;
+            ExceptionHandler(type);
+            decimal result = 1;
 
             foreach (var item in type)
             {
-                if (result == 0.0m && defaultValueIsOne == false && item is ValueType)
-                {
-                    result = 1;
-                    defaultValueIsOne = true;
-                }
-
-                if (item is ValueType)
-                {
-                    result *= decimal.Parse(item.ToString());
-                }
-                else
-                {
-                    throw new ArgumentException("Only ValueTypes can be calculated!");
-                }
+                result *= decimal.Parse(item.ToString());
             }
 
             return result;
@@ -58,7 +39,7 @@ namespace Extensions
         {
             ExceptionHandler(type);
             decimal result = 0;
-            
+
             result = decimal.Parse(type.Min().ToString());
 
             return result;
