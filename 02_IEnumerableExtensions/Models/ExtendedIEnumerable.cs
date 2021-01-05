@@ -11,7 +11,7 @@ namespace Extensions
     {
         public static decimal CollectionSum<T>(this IEnumerable<T> type)
         {
-            decimal result = 0;
+            decimal result = 0.0m;
 
             foreach (var item in type)
             {
@@ -25,6 +25,13 @@ namespace Extensions
                 }
             }
                 
+            return result;
+        }
+
+        public static decimal CollectionProduct<T>(this IEnumerable<T> type)
+        {
+            decimal result = 0.0m;
+
             return result;
         }
     }
