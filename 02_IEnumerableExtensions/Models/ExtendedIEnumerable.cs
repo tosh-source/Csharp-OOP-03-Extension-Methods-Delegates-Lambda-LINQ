@@ -74,6 +74,22 @@ namespace Extensions
             return result;
         }
 
+        public static decimal CollectionAverage<T>(this IEnumerable<T> type)
+        {
+            ExceptionHandler(type);
+            decimal result = 0;
+            int counter = 0;
+
+            foreach (var item in type)
+            {
+                result += decimal.Parse(item.ToString());
+                counter++;
+            }
+            result = result / counter;
+
+            return result;
+        }
+
         private static void ExceptionHandler(IEnumerable type)
         {
             if (type == null)
