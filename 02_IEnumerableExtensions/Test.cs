@@ -18,6 +18,10 @@ namespace Extensions
             //Console.WriteLine(secondType.CollectionProduct());
 
             Console.WriteLine(firstType.CollectionProduct());
+            Console.WriteLine(firstType.CollectionMin());
+            Console.WriteLine(firstType.CollectionMax());
+            Console.WriteLine(firstType.CollectionAverage());
+
         }
     }
 }
