@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _03_FirstBeforeLast
 {
-    class Program
+    class Tests
     {
         static void Main(string[] args)
         {
