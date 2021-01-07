@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _03_FirstBeforeLast
+namespace _03_FirstBeforeLast.Models
 {
-    class Tests
+    class QueryOperators
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
