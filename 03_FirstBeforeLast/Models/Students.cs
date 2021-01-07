@@ -9,14 +9,13 @@ namespace _03_FirstBeforeLast.Models
     class Students
     {
         private string firstName;
+        private string lastName;
 
         public string FirstName
         {
             get { return firstName; }
             set { firstName = value; }
         }
-
-        private string lastName;
 
         public string LastName
         {
