@@ -43,7 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="QueryOperators.cs" />
+    <Compile Include="Models\QueryOperators.cs" />
+    <Compile Include="Test.cs" />
     <Compile Include="Models\Students.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

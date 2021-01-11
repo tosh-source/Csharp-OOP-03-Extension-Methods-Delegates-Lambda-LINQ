@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _03_FirstBeforeLast.Models
 {
-    class Students
+    public class Students
     {
         private string firstName;
         private string lastName;
