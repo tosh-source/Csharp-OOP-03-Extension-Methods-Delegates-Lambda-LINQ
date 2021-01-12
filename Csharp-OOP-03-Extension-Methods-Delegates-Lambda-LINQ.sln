@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_IEnumerableExtensions", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_FirstBeforeLast", "03_FirstBeforeLast\03_FirstBeforeLast.csproj", "{71425A1F-169C-489D-B2CF-A51BF6304AF2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedClassStudents", "SharedClassStudents\SharedClassStudents.csproj", "{1EB2CA86-8A05-4561-915C-1AFEE8B6F642}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{71425A1F-169C-489D-B2CF-A51BF6304AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71425A1F-169C-489D-B2CF-A51BF6304AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71425A1F-169C-489D-B2CF-A51BF6304AF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EB2CA86-8A05-4561-915C-1AFEE8B6F642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EB2CA86-8A05-4561-915C-1AFEE8B6F642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EB2CA86-8A05-4561-915C-1AFEE8B6F642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EB2CA86-8A05-4561-915C-1AFEE8B6F642}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

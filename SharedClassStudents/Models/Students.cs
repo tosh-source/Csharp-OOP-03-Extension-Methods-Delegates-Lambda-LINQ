@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _03_FirstBeforeLast.Models
+namespace SharedClassStudents.Models
 {
     public class Students
     {
@@ -21,6 +21,10 @@ namespace _03_FirstBeforeLast.Models
         {
             get { return lastName; }
             set { lastName = value; }
+        }
+
+        public static void Main()
+        {
         }
     }
 }

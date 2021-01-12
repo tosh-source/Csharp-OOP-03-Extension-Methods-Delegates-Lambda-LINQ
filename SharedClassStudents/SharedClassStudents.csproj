@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{71425A1F-169C-489D-B2CF-A51BF6304AF2}</ProjectGuid>
+    <ProjectGuid>{1EB2CA86-8A05-4561-915C-1AFEE8B6F642}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_03_FirstBeforeLast</RootNamespace>
-    <AssemblyName>03_FirstBeforeLast</AssemblyName>
+    <RootNamespace>SharedClassStudents</RootNamespace>
+    <AssemblyName>SharedClassStudents</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,18 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\QueryOperators.cs" />
-    <Compile Include="Test.cs" />
+    <Compile Include="Models\Students.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SharedClassStudents\SharedClassStudents.csproj">
-      <Project>{1eb2ca86-8a05-4561-915c-1afee8b6f642}</Project>
-      <Name>SharedClassStudents</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
