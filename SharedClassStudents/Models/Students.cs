@@ -9,7 +9,8 @@ namespace SharedClassStudents.Models
     public class Students
     {
         private string firstName;
-        private string lastName;
+        private string lastName; 
+        private int age;
 
         public string FirstName
         {
@@ -21,6 +22,12 @@ namespace SharedClassStudents.Models
         {
             get { return lastName; }
             set { lastName = value; }
+        }
+
+        public int Age
+        {
+            get { return age; }
+            set { age = value; }
         }
 
         public static void Main()
