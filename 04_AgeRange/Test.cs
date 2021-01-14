@@ -22,6 +22,9 @@ namespace _04_AgeRange.Models
 
             Console.WriteLine("Only show students in range from 18 to 24: " + "\n"
                 + string.Join("\n", result));
+
+            Console.WriteLine("\n" + "Only show students in range from 18 to 24: " + "\n"
+                + string.Join("\n", students.AgeRangeExtMethod()));
         }
     }
 }
