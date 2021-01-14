@@ -4,7 +4,7 @@ using SharedClassStudents.Models;
 
 namespace _03_FirstBeforeLast.Models
 {
-    public class QueryOperators : Students
+    public class QueryOperators
     {
         public static IEnumerable<string> OrderFirstBeforeLast(params Students[] students)  //or write as extension method
         {
