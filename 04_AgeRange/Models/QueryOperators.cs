@@ -1,12 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using SharedClassStudents.Models;
 
 namespace _04_AgeRange.Models
 {
-    class QueryOperators
+    public static class QueryOperators
     {
+        public static IEnumerable<string> AgeRange(params Students[] students)
+        {
+            var ageRange =
+                from student in students
+                where student.Age > 18 && student.Age < 24
+                select student.FirstName + " " + student.LastName;
+
+            return ageRange;
+        }
     }
 }
