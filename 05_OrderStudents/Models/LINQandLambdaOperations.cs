@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _05_OrderStudents
+namespace _05_OrderStudents.Models
 {
-    class Program
+    class LINQandLambdaOperations
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }
