@@ -19,10 +19,16 @@ namespace _05_OrderStudents.Models
                 new Students { FirstName = "Vera", LastName = "Aleksieva", Age = 17 }  
             };
 
-            var orderByLambda = LINQandLambdaOperations.OrderStudentsByLambda(students);  //NOTE: In descending order, "Vera Aleksieva" should be AFTER "Vera Georgieva"!
+            var orderByLambda = QueryOperations.OrderStudentsByLambda(students);  //NOTE: In descending order, "Vera Aleksieva" should be AFTER "Vera Georgieva"!
 
             Console.WriteLine("Show students in descending order (by Lambda):" + "\n" 
                 + string.Join("\n", orderByLambda));
+
+
+            var orderByLINQ = QueryOperations.OrderStudentsByLINQ(students);
+
+            Console.WriteLine("\n" + "Show students in descending order (by Lambda):" + "\n"
+                + string.Join("\n", orderByLINQ));
         }
     }
 }
