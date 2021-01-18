@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _06_DivisibleBy7and3
+namespace _06_DivisibleBy7and3.Models
 {
-    class Program
+    class QueryOperations
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }
