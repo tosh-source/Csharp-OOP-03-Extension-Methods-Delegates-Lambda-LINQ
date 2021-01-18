@@ -20,5 +20,20 @@ namespace _06_DivisibleBy7and3.Models
 
             return string.Join(", ", result);
         }
+
+        public static IEnumerable AllDivisibleNumbsByLINQ(this int[] integers)
+        {
+            var result =
+                from integer in integers
+                where (integer % 7 == 0) && (integer % 3 == 0)
+                select integer;
+
+            if (result.Count() == 0)
+            {
+                return "No divisible numbers to 7 and 3 in array!";
+            }
+
+            return string.Join(", ", result);
+        }
     }
 }
