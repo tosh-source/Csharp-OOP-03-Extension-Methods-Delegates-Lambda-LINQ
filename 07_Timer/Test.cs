@@ -11,7 +11,7 @@ namespace _07_Timer.Models
     {
         static void Main(string[] args)
         {
-            TimeTicker ticker = new TimeTicker(Timer.startAction);
+            TimeTicker ticker = new TimeTicker(Timer.StartAction);
 
             for (int cycles = 1; cycles <= 10; cycles++)
             {

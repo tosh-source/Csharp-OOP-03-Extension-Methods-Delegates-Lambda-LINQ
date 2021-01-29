@@ -12,6 +12,8 @@ namespace _07_Timer.Models
     {
         private static int seconds = 0;
 
+        private static Action startAction;
+
         public static int Seconds
         {
             get
@@ -25,6 +27,17 @@ namespace _07_Timer.Models
             }
         }
 
-        public static Action startAction = new Action(() => Console.WriteLine(++Seconds));
+        public static Action StartAction
+        {
+            get
+            {
+                return startAction;
+            }
+        }
+
+        static Timer()
+        {
+            startAction = new Action(() => Console.WriteLine(++Seconds));
+        }
     }
 }
