@@ -43,11 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\QueryOperations.cs" />
     <Compile Include="Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SharedClassStudents\SharedClassStudents.csproj">
+      <Project>{1eb2ca86-8a05-4561-915c-1afee8b6f642}</Project>
+      <Name>SharedClassStudents</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
