@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_StudentGroups", "09_Stud
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_StudentGroupsExtensions", "10_StudentGroupsExtensions\10_StudentGroupsExtensions.csproj", "{064D71E1-0909-4E2F-9DB9-39A8E39AB507}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_ExtractStudentsByEmail", "11_ExtractStudentsByEmail\11_ExtractStudentsByEmail.csproj", "{79C8F6F8-D877-48AD-BCB9-970F3121E69C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{064D71E1-0909-4E2F-9DB9-39A8E39AB507}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{064D71E1-0909-4E2F-9DB9-39A8E39AB507}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{064D71E1-0909-4E2F-9DB9-39A8E39AB507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79C8F6F8-D877-48AD-BCB9-970F3121E69C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79C8F6F8-D877-48AD-BCB9-970F3121E69C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79C8F6F8-D877-48AD-BCB9-970F3121E69C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79C8F6F8-D877-48AD-BCB9-970F3121E69C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
