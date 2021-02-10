@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_ExtractStudentsByMarks",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_ExtractStudentsWithTwoMarks", "14_ExtractStudentsWithTwoMarks\14_ExtractStudentsWithTwoMarks.csproj", "{EFD2E6EB-49E0-4EEB-8197-215DF54BCF4F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_ExtractMarks", "15_ExtractMarks\15_ExtractMarks.csproj", "{FFA8C6F1-71B9-40F9-9DF3-6444653CCCE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{EFD2E6EB-49E0-4EEB-8197-215DF54BCF4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFD2E6EB-49E0-4EEB-8197-215DF54BCF4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFD2E6EB-49E0-4EEB-8197-215DF54BCF4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFA8C6F1-71B9-40F9-9DF3-6444653CCCE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFA8C6F1-71B9-40F9-9DF3-6444653CCCE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFA8C6F1-71B9-40F9-9DF3-6444653CCCE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFA8C6F1-71B9-40F9-9DF3-6444653CCCE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
