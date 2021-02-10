@@ -65,7 +65,12 @@ namespace SharedClassStudents.Models
             set { groupNumber = value; }
         }
 
-        public static void Main()
+        public Students()
+        {
+            this.Mark = new List<int>();
+        }
+
+        private static void Main()
         {
         }
     }
