@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_ExtractStudentsByPhone",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_ExtractStudentsByMarks", "13_ExtractStudentsByMarks\13_ExtractStudentsByMarks.csproj", "{48B78210-55BC-42E1-BEA4-D3B3DC2C35B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_ExtractStudentsWithTwoMarks", "14_ExtractStudentsWithTwoMarks\14_ExtractStudentsWithTwoMarks.csproj", "{EFD2E6EB-49E0-4EEB-8197-215DF54BCF4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{48B78210-55BC-42E1-BEA4-D3B3DC2C35B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48B78210-55BC-42E1-BEA4-D3B3DC2C35B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48B78210-55BC-42E1-BEA4-D3B3DC2C35B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFD2E6EB-49E0-4EEB-8197-215DF54BCF4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFD2E6EB-49E0-4EEB-8197-215DF54BCF4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFD2E6EB-49E0-4EEB-8197-215DF54BCF4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFD2E6EB-49E0-4EEB-8197-215DF54BCF4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
