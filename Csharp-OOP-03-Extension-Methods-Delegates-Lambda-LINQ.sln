@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_ExtractStudentsWithTwoMa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_ExtractMarks", "15_ExtractMarks\15_ExtractMarks.csproj", "{FFA8C6F1-71B9-40F9-9DF3-6444653CCCE5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17_LongestString", "17_LongestString\17_LongestString.csproj", "{6EAB89D7-597E-45B6-9879-1C708CF9DEA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{FFA8C6F1-71B9-40F9-9DF3-6444653CCCE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFA8C6F1-71B9-40F9-9DF3-6444653CCCE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFA8C6F1-71B9-40F9-9DF3-6444653CCCE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EAB89D7-597E-45B6-9879-1C708CF9DEA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EAB89D7-597E-45B6-9879-1C708CF9DEA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EAB89D7-597E-45B6-9879-1C708CF9DEA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EAB89D7-597E-45B6-9879-1C708CF9DEA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
