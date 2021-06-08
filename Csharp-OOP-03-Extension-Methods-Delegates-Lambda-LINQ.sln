@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18_GroupedByGroupNumber", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19_GroupedByGroupNumberЕxtensions", "19_GroupedByGroupNumberЕxtensions\19_GroupedByGroupNumberЕxtensions.csproj", "{97FE3BCF-127C-4033-9118-1135C99F2ACD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_Groups", "16_Groups\16_Groups.csproj", "{423D22F4-BD43-46A8-8712-C9C9897D080E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{97FE3BCF-127C-4033-9118-1135C99F2ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97FE3BCF-127C-4033-9118-1135C99F2ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97FE3BCF-127C-4033-9118-1135C99F2ACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{423D22F4-BD43-46A8-8712-C9C9897D080E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{423D22F4-BD43-46A8-8712-C9C9897D080E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{423D22F4-BD43-46A8-8712-C9C9897D080E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{423D22F4-BD43-46A8-8712-C9C9897D080E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
