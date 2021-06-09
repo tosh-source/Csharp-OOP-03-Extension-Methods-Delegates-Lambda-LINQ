@@ -10,13 +10,13 @@ namespace _16_Groups.Models
 {
     class QueryOperations
     {
-        public static IEnumerable GroupDepartment(Group[] groupOfDepartments, string groupByDepartment = "Mathematics", params Students[] students)
+        public static IEnumerable GroupDepartment(Group[] groupOfDepartments, string groupCriteria = "Mathematics", params Students[] students)
         {
             var groupDepartment =
                 from currentStudent in students
                 join currentGroup in groupOfDepartments
                 on currentStudent.GroupNumber equals currentGroup.GroupNumber
-                where currentGroup.DepartmentName == groupByDepartment
+                where currentGroup.DepartmentName == groupCriteria
                 select new
                 {
                     Student = currentStudent.FirstName + " " + currentStudent.LastName,
